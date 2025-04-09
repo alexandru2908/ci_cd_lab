@@ -55,7 +55,7 @@ jobs:
 
     # Run this job only after the 'compile' job completes successfully
       needs: compile
-        if: success()
+      if: success()
 
       steps:
       # Step 1: Checkout the repository code
