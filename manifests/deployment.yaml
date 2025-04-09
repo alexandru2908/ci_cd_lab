@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/alexandru2908/go-simple-webserver:latest
+          image: ghcr.io/alexandru2908/ci_cd_lab:latest
           ports:
             - containerPort: 8080
